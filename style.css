@@ -1,0 +1,221 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+ 
+
+  .title {
+    text-align: center;
+    height: 50px;
+  }
+
+  .lema {
+    text-align: center;
+    font-style: oblique;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height:1% ;
+    /* object-fit: cover;   */
+  } 
+  
+
+  .biography-section {
+    padding: 50px 0;
+    background-color: #F3D6CD;
+  }
+  
+  .section-title {
+    text-align: center;
+    /* font-size: 28px; */
+    margin-bottom: 20px;
+  }
+  
+  .highlighted-quotes {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .highlighted-quotes p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .biography-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .highlighted-quotes {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .highlighted-quotes p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .bio-description {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+ 
+  .achievements-section {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .achievements-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .achievements-list li {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .achievements-list img {
+    width: 397px;
+    height: 554px;
+    margin-bottom: 10px;
+  }
+  
+  .achievements-list p {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .quotes-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-container {
+    margin-bottom: 20px;
+  }
+  
+  .quote {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .quote-author {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .literary-works-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .book-item {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
