@@ -1,3 +1,7 @@
+html {
+  background-color: gray;
+}
+
 header {
     background-color: #f2f2f2;
     padding: 20px;
@@ -8,6 +12,8 @@ header {
   
   .logo img {
     height: 100px;
+    width: 100px;
+    border-radius: 50%;
   }
   
   nav ul {
@@ -33,28 +39,37 @@ header {
     color: #fff;
   }
 
- 
+ body {
+  width: 100%;
+  background-color: #F3D6CD;
+  border: 5px solid black;
+ }
 
   .title {
     text-align: center;
-    height: 50px;
+    font-size: xxx-large;
+    text-shadow: 1px 3px 1px black;
+  
   }
 
   .lema {
     text-align: center;
     font-style: oblique;
+    font-size: xx-large;
   }
   
   .hero-image img {
     width: 100%;
     height:1% ;
-    /* object-fit: cover;   */
+    display: block;
+    
   } 
   
 
   .biography-section {
-    padding: 50px 0;
+    /* padding: 50px 0; */
     background-color: #F3D6CD;
+    font-size: larger ; 
   }
   
   .section-title {
@@ -73,11 +88,7 @@ header {
     margin-bottom: 10px;
   }
   
-  .biography-section {
-    padding: 50px 0;
-    background-color: #f9f9f9;
-  }
-  
+
   .section-title {
     text-align: center;
     font-size: 28px;
@@ -119,7 +130,6 @@ header {
   .achievements-list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
   }
@@ -200,7 +210,29 @@ header {
     margin-bottom: 10px;
   }
  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
   
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 14px;
+    display: inline;
+  }
   
   
   
