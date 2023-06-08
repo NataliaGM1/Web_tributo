@@ -50,7 +50,7 @@ header {
     background-color: #333;
     color: #fff;
   }
-
+  
  body {
   width: 100%;
   background-color: #F3D6CD;
@@ -76,19 +76,7 @@ header {
     display: block;
     
   } 
-  
 
-  /* .biography-section {
-    /* 
-    background-color: #F3D6CD;
-    font-size: larger ; 
-  }
-  
-  .section-title {
-    text-align: center;
-    /* font-size: 28px; 
-    margin-bottom: 20px;
-  } */
   
   .highlighted-quotes {
     text-align: center;
@@ -105,6 +93,10 @@ header {
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
+  }
+
+  .biography-section {
+    font-size: 25px;
   }
   
   .highlighted-quotes {
@@ -198,6 +190,7 @@ header {
   .literary-works-section {
     padding: 50px 0;
     background-color: #f9f9f9;
+    background-color: #F3D6CD;
   }
   
   .section-content {
@@ -222,6 +215,44 @@ header {
     margin-bottom: 10px;
   }
  
+ 
+  
+  .gallery-section {
+    background-color: white;
+    padding: 50px 0;
+  
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f9f9f9;
+   
+  }
+  
+  .gallery-item img {
+    /* max-width: 100%;
+    max-height: 100%; */
+    object-fit: cover;
+    text-align: center;
+    width: 130px;
+    height: 190px;
+  }
+  
   footer {
     background-color: #333;
     color: #fff;
@@ -245,6 +276,7 @@ header {
     font-size: 14px;
     display: inline;
   }
+  
   
   
   
